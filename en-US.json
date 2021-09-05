@@ -6,6 +6,20 @@
     "banned": "Ban reason: {}\n\nIf you think that the ban was wrong, contact the administrators.\n\nTOKEN: {}",
     "maintenanceStarted": "Maintenance has started on the server! Come back later!",
     "incorrectLogin": "Invalid session! Try again later!",
+    "error": "An error has been occured! Please try rejoin!",
+    "offers": {
+        "special": "SPECIAL OFFER!",
+        "legendary": "LEGENDARY OFFER!",
+        "14update": "Wow! Update!",
+        "byeSeptember": "BYE, SEPTEMBER!",
+        "hiOctober": "HI, OCTOBER!",
+        "tickhead": "Who lost Tick?",
+        "timeToPush": "Time to Push!",
+        "smallgift": "A small gift in front of the great!",
+        "tailsbirthday": "Happy birthday, tailsjs!",
+        "gene": "Wow, Gene!",
+        "doublers": "Wow! Legendary!"
+    },
     "club": {
         "commands": {
             "stats": "/stats",
