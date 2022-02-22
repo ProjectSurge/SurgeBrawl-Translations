@@ -7,6 +7,11 @@
     "maintenanceStarted": "Maintenance has started on the server! Come back later!",
     "incorrectLogin": "Invalid session! Try again later!",
     "error": "An error has been occured! Please try rejoin!",
+    "leavedBeforeBattleEnds": "You quit the last game.\nYour earned trophies and tokens have burned out!\nNext time, don't leave the battle before it's over!",
+    "incorrectName": "This name is not allowed!",
+    "userGetError": "Error getting player information.",
+    "userClosedName": "THIS PROFILE CLOSED.\n{}",
+    "removedBuggedSP": "Hey! An update has been released!\nYour account has been spotted with a STAR POWER bug!\nWe have removed some star powers so you can continue play as ElPrimo, Colt, Jessie, Brock, Dynamike, Piper, Leon and Spike!",
     "bans": {
         "exploiting": "Exploiting.",
         "gemsExploiting": "Using cheats to cheat in-game currency.",
@@ -15,21 +20,31 @@
     "offers": {
         "special": "SPECIAL OFFER!",
         "legendary": "LEGENDARY OFFER!",
-        "14update": "Wow! Update!",
-        "byeSeptember": "BYE, SEPTEMBER!",
-        "hiOctober": "HI, OCTOBER!",
-        "tickhead": "Who lost Tick?",
-        "timeToPush": "Time to Push!",
-        "smallgift": "A small gift in front of the great!",
-        "tailsbirthday": "Happy birthday, tailsjs!",
-        "gene": "Wow, Gene!",
-        "doublers": "Wow! Legendary!"
+        "timeToPush": "Time to push!",
+        "15update": "New update!",
+        "projectsurgeHello": "Hello ProjectSurge!",
+        "byeOctober": "BYE, OCTOBER!",
+        "hiNovember": "HI, NOVEMBER!",
+        "noNut": "NoNutNovember here!",
+        "smallGift": "Hold it and have fun!",
+        "freeCoins": "COINS!!",
+        "megabox": "Hush!",
+        "nah": "I'm too lazy to come up with a name for this offer.",
+        "halloween": "Boo!"
+    },
+    "gameroom": {
+        "commands": {
+            "help": "/help",
+            "monster": "/monster"
+        },
+        "successInstalled": "Successfully installed!",
+        "helpCommand": "Commands:\n/monster - enable the SUPERCITY RAMPAGE mode in the gameroom.",
+        "surgebothello": "Welcome to the gameroom.\nMy name is SurgeBot. Your faithful assistant.\nType \"/help\" to find out about all commands!"
     },
     "club": {
         "commands": {
             "stats": "/stats",
             "token": "/token",
-            "monster": "/monster",
             "pro": "/pro",
             "boxes": "/boxes",
             "theme": "/theme",
@@ -37,9 +52,10 @@
             "link": "/link",
             "bonus": "/bonus",
             "help": "/help",
-            "prohelp": "/prohelp"
+            "prohelp": "/prohelp",
+            "closeprof": "/prof"
         },
-        "serverStats": "Server stats:\nBuild version: 1.4 (for v28.189)\nServer type: prod\nStart server time: {}\nNumber of registered accounts: {}\nNumber of gamerooms: {}",
+        "serverStats": "Server stats:\nBuild version: 1.5 (for v28.189)\nServer type: prod\nStart server time: {}\nNumber of registered accounts: {}\nNumber of gamerooms: {}",
         "tokenMessage": "Your token: {}\nSave the token! We recommend sharing the token only with the project administration, otherwise you have a chance to lose your account",
         "installed": "Installed!",
         "proStatusDesc": "PRO-STATUS.\nCost - 20₽.\nWITH PRO-STATUS YOU GET:\n\nColored nick!\nAdditional trophys per game! (2-4)\nAdditional resources from the boxes! (x2)\nBACKGROUNDS FROM OLD VERSIONS?!\nDiscounts on offers!\nDoubled Daily Bonus!\n\nYou {}",
@@ -58,13 +74,22 @@
         "linkNotSuccess": "An error has occurred! Please try again later.",
         "comeLaterBonus": "It's too early! Come {} by Moscow!",
         "bonusGet": "You get {} BIG BOX tokens from the daily bonus!",
-        "helpCommand": "Club commands:\n/stats - server stats\n/token - your token\n/monster - enable the SUPERCITY RAMPAGE mode in the gameroom.\n/pro - some info about prostatus\n/boxes - get information about boxes\n/prohelp - commands for pro-status holders!\n/bonus - get a daily bonus.\n/promo [promo] - enter a promo code for PRO-STATUS!",
-        "proStatusHelp": "Commands for pro-status:\n/theme - change the background in the main menu",
+        "helpCommand": "Club commands:\n/stats - server stats\n/token - your token\n/pro - some info about prostatus\n/boxes - get information about boxes\n/prohelp - commands for pro-status holders!\n/bonus - get a daily bonus.\n/promo [promo] - enter a promo code for PRO-STATUS!",
+        "proStatusHelp": "Commands for pro-status:\n/theme - change the background in the main menu\n/prof - close/open profile",
         "surgebothello": "Welcome to the club! I am SurgeBot! Your faithful assistant!\nType \"/help\" to find out about all commands!",
-        "surgebotname": "SurgeBot"
+        "surgebotname": "SurgeBot",
+        "thisClubDoesntExist": "There is no such club!",
+        "profileclosed": "Profile successfully {}.",
+        "profileclosedstatus": ["opened", "closed"],
+        "clubGetError": "Error getting club information.",
+        "clubErrorName": "<c1>!ERROR!</c>",
+        "clubErrorDesc": "Oops, an unexpected error occurred while retrieving club information!\nPlease try again. If the error persists, contact the administrators",
+        "cannotChangeThemeCauseHalloween": "Unfortunately, you cannot change the theme during HALLOWEEN!"
     },
     "inbox": [
         "Welcome to SurgeBrawl!",
+        "UPDATE FROM 10/18/21 (#1)\nLeaderboards have been rewritten.\nNow every 3 weeks the season will be reset.\nPromocodes can now be entered in the \"Author Code\"\nClub mail has been developed.\nThe command /monster has been moved to the gameroom bot",
+        "UPDATE FROM 10/18/21 (#2)\nYou can close your statistics with PRO-STATUS! (COMMAND /PROF IN CLUB)\nAlso, for fun, chat was introduced in game rooms.\nRepaired getting starpoints.\nThe club leaderboard has been added.\nYou can now get trophy brawlers from the shop after reaching their number.",
         "UPDATE FROM 11/09/21:\nImproved account security\nImproved offers.\nNow skins must be obtained from boxes.\nAdded translation into English and Ukrainian.\nNow game modes change every hour.",
         "CLIENT UPDATE FROM 09/11/21:\nNow the \"Play\" button takes you IMMEDIATELY INTO BATTLE!\nAdded useful information on the top left (near the trophy road)\nAdded 2 new backgrounds for PRO-STATUS!",
         "UPDATE FROM 08/19/21:\nNow you can see when the user was online in the club.\nThe game will warn you 5 minutes before maintenance.\nAdded promo code system.",
