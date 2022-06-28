@@ -17,20 +17,60 @@
         "gemsExploiting": "Oyun içi para birimini aldatmak için hileleri kullanma.",
         "usingModifiedClient": "Değiştirilmiş bir müşterinin kullanımı."
     },
+    "noAccountInDB": "Veritabanında bir hata oluştu!\nLütfen yönetimle iletişime geçin veya uygulama verilerini silin.\n\nDB Response: {}",
+    "serverClosing": "SurgeBrawl'da oynadığınız için teşekkür ederiz!\nGG.",
+    "months": [
+        "Ocak ayı",
+        "Şubat",
+        "Mart",
+        "Nisan",
+        "Mayıs",
+        "Haziran",
+        "Temmuz",
+        "Ağustos",
+        "Eylül",
+        "Ekim",
+        "Kasım",
+        "Aralık"
+    ],
     "offers": {
-        "special": "ÇOK ÖZEL PROMOSYON!",
+        "custom": "{}",
+        "special": "ÖZEL PROMOSYON!",
         "legendary": "EFSANEVİ PROMOSYON!",
-        "timeToPush": "Zafer zamanı!",
-        "15update": "Yeni güncelleme!",
-        "projectsurgeHello": "Merhaba ProjectSurge!",
-        "byeOctober": "HOŞÇAKAL EKİM!",
-        "hiNovember": "MERHABA KASIM!",
-        "noNut": "Çılgın Kasım!",
-        "smallGift": "Küçük bir hediye",
-        "freeCoins": "Bedava paralar!!",
-        "megabox": "Sessiz olun!",
-        "nah": "Hisse senedinin adını icat etmek için çok tembelim.",
-        "halloween": "Boo!"
+        "timeToPush": "Sürükleme zamanı!",
+        "16update": "Yeni güncelleme!",
+        "helloMonth": "Hey, {}!",
+        "byeMonth": "Güle güle, {}!",
+        "wipe_1": "Wipe!",
+        "wipe_2": "Ve wipe için!",
+        "wipe_3": "Bunu wipe.",
+        "1stApril": "İLK NİSAN İLE!",
+        "bard": "Bard'dan Promosyon!",
+        "duelist": "Düellocudan Terfi!",
+        "testOffer": "Test promosyonu!",
+        "middleOfMonth": "ayın ortası!",
+        "freeMegabox": "Ücretsiz Megabox!",
+        "projectsurgegift": "ProjectSurge!",
+        "happybirthdayServer": "Doğum günün kutlu olsun,",
+        "happybirthdayServer_2": "SurgeBrawl!",
+        "happybirthdayServer_3": "1 YIL!"
+    },
+    "linking": {
+        "_beta": "Bu geliştirme aşamasındadır. Burada gördükleriniz zamanla değişebilir.",
+        "success": "Hesabınızı başarıyla {}'a bağladınız!",
+        "socnetworks": [
+            "VK",
+            "Telegram",
+            "Discord"
+        ],
+        "unsuccess": "Bir hata oluştu! Lütfen yöneticiyle iletişime geçin.",
+        "info": "Bir hesabı bir sosyal ağa bağlama!\nBağlantı kılavuzu:\n/link [VK/TG/DS]\nBu komutu girdikten sonra, hesabınızı ve botun sosyal hesabını bağlayabileceğiniz kişisel kodunuz verilecektir.\nAyarladıktan sonra girin /link [VK/TG/DS] onaylamak, чтобы завершить привязку.",
+        "vk": "VKontakte'ye bağlanma kılavuzu:\n1. Bu kodu hatırla: {}\n2. Grupta bulunan bota gidiyoruz https://vk.com/surgebrawl\n3. Ona yazıyoruz /link {}\n4. Bot başarılı bir sonuç verdikten sonra buraya geri gelin ve yazın /link vk onaylamak",
+        "tg": "Telegram'ye bağlanma kılavuzu:\n1. Bu kodu hatırla: {}\n2. Grupta bulunan bota gidiyoruz https://t.me/ps_surge_bot\n3. Ona yazıyoruz /link {}\n4. Bot başarılı bir sonuç verdikten sonra buraya geri gelin ve yazın /link tg onaylamak",
+        "ds": "Discord'ye bağlanma kılavuzu:\n1. Bu kodu hatırla: {}\n2. Discord sunucumuzda bulunan bota gidiyoruz.\n3. Ona özel mesaj gönder /link {}\n4. Bot başarılı bir sonuç verdikten sonra buraya geri gelin ve yazın /link ds onaylamak",
+        "linkStarted": "{} için bağlanma başladı. Bağlamayı tamamlamak için \"{}\" komutundaki kılavuzu izleyin.\nKOD: {}",
+        "alreadyLinked": "Hesabınızı zaten {} ile bağladınız.",
+        "unlink": "Hesabınızın {} ile bağlantısını kaldırdınız."
     },
     "gameroom": {
         "commands": {
@@ -53,9 +93,20 @@
             "bonus": "/bonus",
             "help": "/yardım",
             "prohelp": "/proyardım",
-            "closeprof": "/profil"
+            "closeprof": "/profil",
+            "bptokens": "/bp",
+            "patches": "/patch",
+            "freeTheme": "/ftema"
         },
-        "serverStats": "Ana sunucu bilgileri:\nyapı sürümü: 1.5 (için v28.189)\nSunucu türü: prod\nBaşlangıç zamanı: {}\nKayıtlı hesapların sayısı: {}\nToplam oyun odaları: {}",
+        "patchList": {
+            "camera": "camera",
+            "china": "china",
+            "slowmo": "slowmo",
+            "mirror": "mirror",
+            "boss": "boss",
+            "poison": "poison"
+        },
+        "serverStats": "Ana sunucu bilgileri:\nyapı sürümü: 1.7 (için v28.189)\nSunucu türü: prod\nBaşlangıç zamanı: {}\nKayıtlı hesapların sayısı: {}\nToplam oyun odaları: {}",
         "tokenMessage": "Erişimanahtarı: {}\nErişim anahtarını sakla! Jetonu yalnızca proje yönetimi ile paylaşmanızı öneririz, aksi takdirde hesabınızı kaybetme şansınız olur",
         "installed": "Ayarlandı!",
         "proStatusDesc": "Premium abonelik.\ndeğer 30 ruble(5 Türk lirası).\npremium abonelik ile alacaksınız:\n\nRenkli takma ad!\nMaç başına ekstra kupalar! (2-4)\nKutulardan ek kaynaklar! (х2)\nESKİ SÜRÜMLERDEN TEMALAR MI?!\nPromosyonlarda indirimler!\nGünlük ikramiyeyi ikiye katlayın!\nDövüşten sonra parala\n\nSende: {}",
@@ -69,13 +120,13 @@
         "forgotPromo": "PROMOSYON kodunu unuttun!",
         "promoNotExist": "Böyle bir promosyon kodu mevcut değil!",
         "getPro": "Yaşasın! Premium abonelik aldığınız için tebrikler!",
-        "noRequests": "Henüz hesabınızı bağlamak için başvuru yok",
-        "linkSuccess": "Hesabınızı botunuza başarıyla bağladınız.",
-        "linkNotSuccess": "Bir hata oldu! Sonra dene.",
+        "noRequests_outdated": "Henüz hesabınızı bağlamak için başvuru yok",
+        "linkSuccess_outdated": "Hesabınızı botunuza başarıyla bağladınız.",
+        "linkNotSuccess_outdated": "Bir hata oldu! Sonra dene.",
         "comeLaterBonus": "Daha erken! Gel {} MSK!",
         "bonusGet": "Sen alıyorsun {} Günlük bonusunuzdan büyük bir kutu için jeton!",
-        "helpCommand": "Kulüpteki takımlar::\n/İstatistik - İstatistik\n/Erişimanahtarı - Erişim anahtarınız\n/prem - Bilgi hakkında premium abonelik!\n/kutular - çekmeceleriniz hakkında bilgi edinin\n/prem - Premium abonelik sahipleri için takımlar!\n/bonus - günlük bonus alın.\n/promosyon [promosyon] - Premium abonelik için promosyon kodunu girin!",
-        "proStatusHelp": "Premium abonelik sahipleri için takımlar:\n/tema - Ana menüde arka planı değiştir\n/profil -profili kapat/aç",
+        "helpCommand": "Kulüpteki takımlar::\n/İstatistik - İstatistik\n/Erişimanahtarı - Erişim anahtarınız\n/ftema - SurgeBrawl'dan arka planı ücretsiz olarak sarıya veya markalıya değiştirir\n/prem - Bilgi hakkında premium abonelik!\n/kutular - çekmeceleriniz hakkında bilgi edinin\n/prem - Premium abonelik sahipleri için takımlar!\n/bonus - günlük bonus alın.\n/promosyon [promosyon] - Premium abonelik için promosyon kodunu girin!",
+        "proStatusHelp": "Premium abonelik sahipleri için takımlar:\n/tema - Ana menüde arka planı değiştir\n/profil -profili kapat/aç\n/patch - oyununuzu özelleştirin",
         "surgebothello": "Merhaba! Kulübe hoş geldiniz! Ben öyleyim SurgeBot. Sadık yardımcın!\n\nyazmak \"/yardım\" Tüm takımlar hakkında bilgi edinmek için!",
         "surgebotname": "SurgeBot",
         "thisClubDoesntExist": "Böyle bir kulüp diye bir şey yoktur!",
@@ -84,7 +135,18 @@
         "clubGetError": "Kulüp hakkında bilgi alma hatası.",
         "clubErrorName": "!HATA!",
         "clubErrorDesc": "Oh, sanırım kulüple ilgili bilgi alırken beklenmedik bir hata oldu!\nLütfen tekrar dene. Hata başarısız olursa yöneticilerle iletişime geçin",
-        "cannotChangeThemeCauseHalloween": "Maalesef CADILAR Bayramı'nda konuyu değiştiremezsiniz!"
+        "cannotChangeThemeCauseHalloween": "Maalesef SURGEBRAWL'IN DOĞUM GÜNÜ sırasında temayı değiştiremezsiniz!",
+        "turnOnBrawlPassTokensGaining": "BrawlPass'ta jeton düşürmeyi başarıyla {}!",
+        "turnstatuses": ["etkinleştirdiniz", "kapattınız"],
+        "noCommand": "Böyle bir komut yok!\nKomutlar için /yardım girin!",
+        "patchesInfo": "Yamalar.\nHer zamanki oyundan bıktıysanız, bu bir şekilde eğlenmenin bir yoludur.\n\nKullanılabilir yamaların listesi:\n/patch china - istemcinin Çinli gibi görünmesini sağlar\n/patch slowmo - oyununuzu yavaşlatır (bir oturum)\n/patch camera (0-2) - diğer kamera türlerini ayarlayın.\n/patch mirror - tüm haritayı yansıtır.\n/patch boss - tüm nesneleri patron yapar. mantığı 3'e 3 bozar (bir oturum)\n/patch poison - tüm modlara duman ekler. muharebe mantığını bozar (tek seans)",
+        "cameraPatchInfo": "Tüm kamera modları:\n0. Normal mod\n1. Sabit görünüm yakından\n2. Üstten görünüm\nÖrnek: /patch camera 1",
+        "patchState": "Yama başarıyla {}!",
+        "turnedStates": [
+            "uygulandı",
+            "kapatıldı",
+            "değiştirildi"
+        ]
     },
     "inbox": [
         "Surgebrawl'a hoş geldiniz! Artık Türkçe'de de mevcut!",
@@ -94,6 +156,5 @@
         "MÜŞTERİ GÜNCELLEMESİ 22.08.21:\nŞimdi \"Oynat\" düğmesi sizi HEMEN oyuna götürür!\nSol üstte yararlı bilgiler eklendi (kupa yolunun yakınında)\nPREMİUM ABONELİK sahipleri için 2 yeni tema eklendi!!",
         "YENİLEME 19.08.21:\nArtık bir kullanıcının kulüpte ne zaman çevrimiçi olduğunu görebilirsiniz.\nOyun, aradan 5 dakika önce sizi uyaracaktır.\nPromosyon kodu sistemi eklendi.",
         "YENİLEME 25.07.21:\nOynat düğmesine bastığınızda, sizi oyun odasına atarsınız."
-    ],
-    "__translatedby": "nivatus"
+    ]
 }
